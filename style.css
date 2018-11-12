@@ -1,0 +1,262 @@
+/*
+Theme Name: RBCMNDZ
+Author: Héctor del Campo
+Description: Custom theme for Rebecca Menendez
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: RBCMNDZ
+*/
+
+
+/* formatting */
+
+html, body, p {
+	padding:  0;
+	margin:  0;
+}
+
+body {
+	font-size: 1rem;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	line-height: 1em;
+	padding: 0;
+	margin:  0;
+}
+
+
+
+/* header styles  */
+
+.site-branding {
+	background-color: yellow;
+	min-height: 60px;
+}
+
+.site-branding a {
+	text-decoration: none;
+	color: black;
+	margin-top: 20%;
+}
+
+.header-container {
+	width: 95%;
+	max-width: 1366px;
+	margin:  auto;
+}
+
+
+.site-title {
+	font-weight: 900;
+}
+
+.title-link {
+	padding: 2% 0 2% 0;
+}
+
+/* navigation */
+
+.menu-navegacion {
+	width: 95%;
+	margin:  auto;
+	max-width: 1366px;
+}
+
+.main-navigation {
+	margin:  0;
+	padding: 1px 0 1px 0;
+    background-color: orange;
+}
+
+.main-navigation ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.main-navigation ul li {
+	display: inline-block;
+}
+.main-navigation  a{
+	text-decoration: none;
+	color: black;
+	padding: 0 15px 0 0;
+	font-weight: 800;
+}
+
+/* 
+///////////////////////
+/// content view /////
+//////////////////////
+*/
+
+.entrada-contenido {
+	width: 100%;
+}
+
+body, .site-content{
+	max-width: 1366px;
+	margin:  auto;
+}
+
+.content-area {
+	width: 95%;
+	margin:  auto;
+	max-width: 1366px;
+	margin-bottom: 5%;
+	display: block;
+}
+
+
+.content-feature {
+	list-style-type:  none;
+	padding: 2% 0;
+}
+.post-box {
+	display: inline-block;
+	width: 33%;
+	vertical-align:  top;
+}
+.contenedor-entradas {
+	width: 100%;
+}
+
+.entrada {
+	vertical-align: top;
+	margin-top: 0;
+	padding: 20px 0 5px 0;
+	width: 100%;
+	font-size: 1rem;
+}
+
+.entrada h3 {
+	padding: 2% 0;
+}
+
+.entrada a { text-decoration: none; color: black; font-weight: 800; }
+.entrada-header { padding-bottom: 5%; }
+
+.entrada a {
+	text-decoration: none;
+	color: white;
+	font-size: .8rem;
+}
+
+.parrafo {
+	margin-top: 4%;
+	padding: 0 10%;
+}
+
+.padding-p {
+	padding:  0 5px;
+}
+
+.portfolio-btn {
+	padding:  5px 10px;
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+}
+
+.portfolio-btn:hover {
+	padding:  5px 10px;
+	background-color: gray;
+}
+
+.link-entrada-portfolio {
+	margin-top: 30px;
+}
+
+
+/* imagenes de contenido */
+
+.image-thumb {
+	width: 100%;
+	background-image: url('http://localhost/wordpress_training/Wordpress/wp-content/uploads/2018/11/city.png');
+	background-size: cover;
+	height: 400px;
+}
+
+
+
+/* footer */
+
+#colophon, .site-footer {
+	max-width: 1366px;
+	margin:  auto;	
+	background-color: orange;
+	font-size: 1rem;
+	min-height: 130px;
+	margin-top: 5%;
+	display: block;
+}
+
+.footer-container {
+	width: 90%;
+	margin:  auto;
+	position: relative;
+	margin-bottom: 0;
+
+}
+
+.footer-container p {
+	display: inline-block;
+	margin-top: 1.5%;
+}
+
+.footer-container a {
+	color: black;
+	text-decoration: none;
+	font-weight: 800;
+}
+
+.f-right {
+	float: right;
+}
+
+/* single.php styles */
+
+.trabajo {
+	width: 100%;
+	height: 500px;
+	padding: 2.5% 5%;
+}
+.entrada-title {
+	padding:  1% 0 3% 0;
+}
+.entrada_content {
+	width: 50%;
+	display: inline-block;
+}
+
+.entrada_info {
+	width: 30%;
+	display: inline-block;	
+	vertical-align: top;
+}
+
+/* single.php index.php  */
+
+.lateral {
+	width: 22%;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-top: 1.5%;
+}
+
+.content-area-post {
+	position: relative;
+	width: 58%;
+	display: inline-block;
+}
+
+a.negro {
+	color: black;
+	text-decoration: none;
+}
+
+.black-li {
+	list-style-type:  none;
+}

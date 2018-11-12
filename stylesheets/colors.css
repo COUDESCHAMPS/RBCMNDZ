@@ -1,0 +1,11 @@
+/* line 2, ../sass/colors.scss */
+.negro {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+/* line 4, ../sass/colors.scss */
+.white {
+  color: white;
+}

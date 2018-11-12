@@ -1,0 +1,146 @@
+
+/* spacers and fixes */
+
+/* padding top */
+.padding-top-s {
+  padding-top: 5px;
+}
+.padding-top-m {
+  padding-top: 10px;
+}
+.padding-top-l {
+  padding-top: 15px;
+}
+.padding-top-xl {
+  padding-top: 25px;
+}
+.padding-top-xxl {
+  padding-top: 50px;
+}
+/* padding bottom */
+.padding-bottom-s {
+  padding-bottom: 5px;
+}
+.padding-bottom-m {
+  padding-bottom: 10px;
+}
+.padding-bottom-l {
+  padding-bottom: 15px;
+}
+.padding-bottom-xl {
+  padding-bottom: 25px;
+}
+.padding-bottom-xxl {
+  padding-bottom: 50px;
+}
+
+/* padding right */
+
+.padding-right-s {
+  padding-right: 5px;
+}
+.padding-right-m {
+  padding-right: 10px;
+}
+.padding-right-l {
+  padding-right: 15px;
+}
+.padding-right-xl {
+  padding-right: 25px;
+}
+.padding-right-xxl {
+  padding-right: 50px;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+
+/* margins */
+
+/* margin top */
+.margin-top-s {
+  margin-top: 5px;
+}
+.margin-top-m {
+  margin-top: 10px;
+}
+.margin-top-l {
+  margin-top: 15px;
+}
+.margin-top-xl {
+  margin-top: 25px;
+}
+.margin-top-xxl {
+  margin-top: 50px;
+}
+
+/* margin bottom */
+.margin-bottom-s {
+  margin-bottom: 5px;
+}
+.margin-bottom-m {
+  margin-bottom: 10px;
+}
+.margin-bottom-l {
+  margin-bottom: 15px;
+}
+.margin-bottom-xl {
+  margin-bottom: 25px;
+}
+.margin-bottom-xxl {
+  margin-bottom: 50px;
+}
+
+
+
+
+/* ALINIAR ELEMENTOS */
+
+.text-center {
+  text-align: center;
+}
+
+
+/* BORDES  */
+
+.border-bottom-s {
+  border-bottom: 1px solid #008ec6;
+}
+
+
+/* color classes  */
+
+.pink {
+  background-color: pink;
+}
+
+.ghostwhite {
+  background-color: #f8f8ff;
+}
+
+.blue {
+  background-color: #008ec6;
+}
+
+.blue-text {
+  color: #008ec6;
+}
+
+.height-50 {
+  height: 50px;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  color: white;
+}
+
+.f-w-600 {
+    font-weight: 600;
+}
